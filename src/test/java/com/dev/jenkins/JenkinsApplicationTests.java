@@ -14,7 +14,7 @@ class JenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test Being Executed... Hello world");
+		logger.info("Test Being Executed... Hello world. this is my test build path");
 		assertEquals(true, true);
 	}
 
