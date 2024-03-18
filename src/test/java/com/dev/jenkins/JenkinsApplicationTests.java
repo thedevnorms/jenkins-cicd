@@ -15,7 +15,7 @@ class JenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test Being Executed... Hello world. this is my test build path");
-		logger.info("Its Test Commit.");
+		logger.info("Its Test Commit. ITs second commit");
 		assertEquals(true, true);
 	}
 
