@@ -18,6 +18,7 @@ public class JenkinsApplication {
 	public static void main(String[] args) {
 		logger.info("Application Executed...");
 		logger.info("Application executed but not logged.");
+		logger.info("CI CD Commit");
 		logger.info("Second commit");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
